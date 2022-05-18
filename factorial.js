@@ -8,7 +8,7 @@ function getFactorialNumber(num) {
     if (num == 0 || num == 1) {
         return 1;
     }
-    if(isNaN(num)) {
+    if (isNaN(num)) {
         return "Only number is allowed";
     }
     else {
